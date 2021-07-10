@@ -1,0 +1,495 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* font-family: 'Fira Sans', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Satisfy', cursive; */
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.emon{
+    font-weight: 400;
+    padding:0;
+
+}
+
+.bangladesh-wiki{
+    text-decoration:underline
+}
+
+.bangladesh-wiki:hover{
+    color: red;
+}
+
+.dotted-hr{
+    border: dotted 6px rgb(214, 255, 118);
+    margin:5px auto 0px;
+    width: 70px;
+    border-bottom: none;
+    border-left:none;
+    border-right: none;
+}
+
+.aboutme-hr{
+    border-bottom: none;
+    border: 1px solid rgb(255, 228, 228);
+}
+
+/* for mobile */
+[class*="col-"]{
+    width: 100%;
+    
+}
+
+/* navigation bar design start */
+.navbar{
+    background-color: #0c6168;
+    padding: 2% 7%;
+    text-align: center;
+    
+}
+
+.navbar-logo{
+    margin-top: 3%;
+}
+
+.navbar-logo img{
+    width: 150px;
+}
+
+.navbar .navbar-head{
+    width: 100%;
+    margin: 5% auto;
+}
+
+.navbar h1{
+    color: white;
+    margin: 0;
+}
+
+.navbar h1 span{
+    color: rgba(42, 179, 243, 0.924);
+}
+
+.navbar-menu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    width: 30%;
+    margin: auto;
+}
+
+.navbar-menu a{
+    background-color: #003741;
+    border-radius: 10px;
+    margin: 5px 0px;
+    padding: 10px;
+    transition: background-color 0.2s;
+    font-size: 1rem;
+}
+
+.navbar-menu a:hover{
+    background-color: grey;
+}
+
+.navbar::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+/* navigation bar design  end */
+
+
+/*profile design start*/
+
+.profile{
+    background:linear-gradient(45deg,rgba(223, 186, 20, 0.664),rgba(92, 44, 223, 0.644)), url("Code-on-laptop.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-attachment: fixed;
+    padding:2% 4%;
+}
+
+.profile-about{
+    padding:15% 0% 5% 0%
+}
+
+.profile-about h1{
+    color: #ad2323;
+    text-shadow: -5px 3px 2px black;
+    font-size: 2.7rem;
+    font-family: 'Satisfy', cursive; 
+    line-height: 3.5rem;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.profile-about p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20% 0%;
+    font-size: 1.1rem;
+    text-shadow: 1px 2px 10px rgb(0 0 0);
+    word-spacing: 1px;
+    mix-blend-mode: overlay;
+}
+
+.profile-about p span a{
+    text-decoration: underline;
+    text-decoration-color: #da8686;
+    text-decoration-thickness: 3px;
+}
+
+.profile-about p::first-letter{
+    font-size: 30px;
+}
+
+/* profile design end */
+
+/* about me design start */
+.about-me{
+    background-color: #39a4ac;
+    padding: 7% 7%;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif';
+}
+
+.about-me::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+
+.aboutme-image{
+    margin-bottom: 70px;
+    position: relative;
+}
+
+.aboutme-image img{
+    border:3px solid rgb(54, 4, 4);
+    width:205px;
+    border-radius: 3%;
+}
+
+.aboutme-desc p{
+    text-align: center;
+    padding: 15px 0px;
+    line-height: 25px;
+}
+
+.aboutme-desc a{
+    font-size: 1.2rem;
+}
+
+.cv-button{
+    background-color: #052d2f;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1rem;
+    cursor: pointer;;
+    text-align: center;
+    margin: 10px 0;
+    border-radius: 12px;
+    transition: background-color 0.3s;
+}
+
+.cv-button:hover{
+    background-color: rgb(124, 7, 7);
+}
+/* about me design end */
+
+
+/* skill design start */
+.professional-experience{
+    background-color: rgb(54, 217, 246);
+    padding: 10% 2%;
+}
+
+.professional-experience::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.professional-experience h1{
+    text-transform: uppercase;
+    color: rgb(39, 0, 0);
+    font-size: 2rem;
+}
+
+.card{
+    background-color: grey;
+    overflow: hidden;
+    margin-top: 30px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    height: 700px;
+}
+
+.card-icon{
+    width: 80px;
+    height: 80px;
+    border: 2px solid rgb(248, 248, 248);
+    background-color: rgb(107, 0, 139);;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+    margin:5% auto;
+    color: white;
+}
+
+.card-head h2{
+    font-size: 1.5rem;
+    background-color: rgb(194, 176, 176);
+    padding: 10px;
+    color: white;
+}
+
+.card-desc{
+    padding: 10px 30px;
+}
+
+.card-desc li{
+    margin:10px 0;
+    line-height: 20px;
+}
+
+.skill-container li{
+    list-style: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 35px 0 35px 0;
+    position: relative;
+}
+
+.skill-container li::before{
+    width: 100%;
+    display: block;
+    background-color: red;
+    height: 15px;
+    content: "";
+    border-radius: 1000px;
+    position: absolute;
+    top: calc(100% + 5px);
+}
+
+.skill-container li::after{
+    width: 1%;
+    display: block;
+    background-color: green;
+    height: 15px;
+    content: "";
+    border-radius: 1000px;
+    position: absolute;
+    top: calc(100% + 5px);
+    animation-delay: .5s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+.skill-container li.html::after{
+    animation-name: html;
+}
+
+@keyframes html{
+    to{
+        width: 95%;
+    }
+}
+
+
+.skill-container li.css::after{
+    animation-name: css;
+}
+
+@keyframes css{
+    to{
+        width: 85%;
+    }
+}
+
+.skill-container li.javascript::after{
+    animation-name: javascript;
+}
+
+@keyframes javascript{
+    to{
+        width: 70%;
+    }
+}
+
+.skill-container li.jquery::after{
+    animation-name: jquery;
+}
+
+@keyframes jquery{
+    to{
+        width: 75%;
+    }
+}
+
+.skill-container li.node::after{
+    animation-name: node;
+}
+
+@keyframes node{
+    to{
+        width: 40%;
+    }
+}
+
+.skill-container li.vue::after{
+    animation-name: vue;
+}
+
+@keyframes vue{
+    to{
+        width: 30%;
+    }
+}
+
+.skill-container li.express::after{
+    animation-name: express;
+}
+
+@keyframes express{
+    to{
+        width: 10%;
+    }
+}
+
+.skill-container li.react::after{
+    animation-name: react;
+}
+
+@keyframes react{
+    to{
+        width: 100%;
+    }
+}
+/* skill design end */
+
+/* achivement-contact start */
+.achivement-contact{
+    padding: 10% 2%;
+    background-color: #39a4ac;
+    color: white;
+}
+
+.achivement-contact::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+
+.achivement p{
+    text-align: justify;
+}
+
+.contact{
+    padding: 0 3%;
+    text-align: center;
+}
+
+.contact input, textarea{
+    width: 100%;
+    padding:10px;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    margin: 10px 0;
+}
+
+.contact button{
+    border: none;
+    border-radius: 12px;
+    background-color: #052d2f;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    margin: 10px;
+    width: 80px;
+}
+
+.contact-links{
+    text-align: center;
+}
+
+.media-buttons button{
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.media-buttons button:hover{
+    background-color: rgb(226, 91, 91);
+    color: white;
+    border-color:rgb(226, 91, 91) ;
+}
+/* achivement-contact end */
+
+/* footer start */
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.footer::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.left-content a{
+    display:block;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+.left-content a:hover{
+    color: grey;
+}
+
+.right-content{
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+
+.right-content span{
+    color: red;
+}
+/* footer end */

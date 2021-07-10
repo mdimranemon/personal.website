@@ -1,0 +1,175 @@
+/* for dekstop */
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+
+[class*="col-"]{
+    float: left;
+    padding:10px;
+}
+
+/* navigation bar design start */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-logo{
+    text-align: left;
+    margin-top: 0%;
+}
+
+.navbar-logo img{
+    width: 200px;
+}
+
+.navbar .navbar-head{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+.navbar-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-menu a{
+    padding: 5px 10px;
+    margin: 15px 5px;
+    background-color: transparent;
+    font-size: 1.3rem;
+}
+/* navigation bar design end */
+
+/* profile design start */
+.profile{
+    padding: 2% 7%;
+    background-position: center center;
+    background-size: 100%;
+}
+
+.profile-about{
+    padding:8% 10%;
+}
+
+.profile-about h1{
+    font-size: 4rem;
+    line-height: 4.7rem;
+    text-shadow: -4px 4px 2px #ecff00;
+    color: #34f5ff;
+    margin-bottom: 2%;
+}
+
+.profile-about p{
+    padding: 2% 0 0 0;
+    width: 700px;
+    margin: 0 auto;
+    font-size: 1.7rem;
+    letter-spacing: 0.8px;
+}
+
+.profile-about p span{
+    text-decoration-color: rgb(255 198 0)
+}
+
+.profile-about p::first-letter{
+    font-size: 50px;
+}
+
+/* profile design end */
+
+
+/* aboutme design start */
+.about-me{
+    padding-bottom: 50px;
+}
+
+.aboutme-image{
+    margin-top: 35px;
+}
+
+.aboutme-image img{
+    width: 400px;
+    border: 5px solid rgb(54, 4, 4);
+}
+
+.aboutme-desc p{
+    text-align: left;
+}
+
+.emon{
+    font-size: 1.7rem;
+}
+
+.emon:hover{
+    text-decoration: underline;
+    color: black;
+}
+/* aboutme design end */
+
+/* skill design start */
+.professional-experience{
+    background-color: rgb(54, 217, 246);
+    padding: 3% 10%;
+}
+
+.card{
+    margin-top: 0;
+    box-shadow: 0px 0px 5px 0px black;
+    transition: .3s;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 20px 0px rgb(0, 0, 0);
+}
+/* skill design end */
+
+
+/* achivement-contact start */
+.achivement-contact{
+    padding: 3% 10%;
+}
+
+.contact{
+    padding: 0 3%;
+    text-align: center;
+}
+
+.contact-links{
+    position: relative;
+}
+
+.media-buttons{
+    width: 150px;
+    position:absolute;
+    margin-top: 150px;
+    top:50%;
+    left: 50%;
+    width: 150px;
+    transform: translate(-50%, -50%);
+}
+/* achivement-contact end */
+
+/* footer start */
+.left-content a{
+    display: inline;
+    margin: 0% 3%;
+    font-size: 1.3rem;
+}
+
+.right-content{
+    font-size: 1.3rem;
+    margin-top: 0px;
+}
+/* footer end */
